@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Be vietnam pro",sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+header .logo {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    mix-blend-mode: multiply;
+
+  }
+  header .logo img {
+    width:100px;
+    margin-left: 50px;
+  }
+  .logoText {
+    margin-left: -2.2rem;
+    font-size: 30px;
+    font: lighter;
+  }
+header{
+    width: 100%;
+    display: flex;
+    padding: 30px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt h2{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 200px;
+    /* justify-content: baseline; */
+    align-items: center;
+    margin-right: 700px;
+}
+nav ul {
+    display: flex;
+   margin-right: 4em;
+   padding: 0 2em;
+   gap: 2rem;
+}
+nav ul li{
+    list-style: none;;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: font-weight 0.3s;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+.heading{
+    font-size: 44px;
+    font-weight: bold;
+}
+.hero-section{
+  gap: 5rem;
+  /* margin: 4rem auto; */
+  padding: 0 1rem;
+  /* padding-bottom: 8rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 900px;
+  /* height: 300px; */
+  width: 1900px;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: 250px;
+  margin-top: 10px;
+  height: 400px;
+  justify-content: center;
+}
+.sub-heading {
+    font-size: 45px;
+    line-height: 40px;
+  }
+.fadedText {
+    user-select: none;
+    font-size: 2.5em;
+    color: #e7e7e7;
+    /* bottom: -16%; */
+    margin-left: 80px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+  .img-container img{
+    width: 500px;
+    margin-top: 90px;
+    margin-right: 300px;
+    mix-blend-mode: multiply;
+    border: 2px solid lightsteelblue;
+    border-radius: 50%;
+    aspect-ratio: 1.1;
+}
+.button h3 a{
+    padding: 15px 40px;
+    outline: 3px solid lightpink;
+    outline-offset: 2px;
+    border: 2px solid rgb(248, 181, 181);
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    color: #7f8491;
+    /* background: #e84949; */
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.button h3 a span{
+    width:0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(224, 17, 17);
+    z-index: -1;
+    transition: 0.6s;
+}
+.button h3 a:hover span{
+   width: 100%;
+   color: blueviolet;
+}
+.button h3 a:hover{
+    color: black;
+}
+.projects-section{
+    background: #e7e7e7
+}
+.title{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(230, 20, 20);
+}
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+.project-card {
+    width: 80%;
+    height: 500px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    gap: 300px;
+    box-shadow: 0px 0px 40px #1f1f1f;
+    margin: 2rem auto;
+    /* z-index: 2; */
+  }
+  .projectHeading{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .projectSubHeading{
+    font-size: 20px;
+    font-style: italic;
+    width: 50%;
+  }
+  .project-content{
+    margin-top: 150px;
+    margin-left: 100px;
+    text-decoration: none;
+    position: absolute;
+    transition: all 0.4s;
+  }
+  .project-card:hover .project-content{
+    transform: scale(1.1);
+  }
+  .buttongrp{
+    width: fit-content;
+    margin-top: 30px;
+  }
+  #project1{
+    background:url(img/ccal1.jpg);
+    right: 5%;
+  }
+  #project2{
+    background:url(img/Tic_tac_toe1.png);
+    left: 5%;
+  }
+  #project3{
+    background-image:url(img/PhonePe.avif);
+    right: 5%;
+  }
+  .leftSkillContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  .skillContainer {
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 5rem auto;
+    gap: 20px;
+  }
+  .skillHeading {
+    color: #e84949;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .skillFadedText {
+    font-size: 10em;
+    right: -9%;
+    bottom: -30%;
+    user-select: none;
+    color: #e7e7e7;
+    font-weight: bold;
+    margin-right: 140px;
+  }
+  .skillsLogo {
+    width: 80px;
+    transition: all 0.5s;
+  }
+  
+  .skillsLogo:hover {
+    transform: scale(1.2);
+  }
+  .skillHeading span {
+    font-size: 90px;
+  }
+  
+  .skillSubHeading {
+    margin-top: 1rem;
+    width: 60%;
+    text-align: justify;
+  }
+  .skillSubHeading p {
+    margin: 15px 0;
+    font-size: 18px;
+  }
+  .rightSkillContainer {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+  }
+  .absolute{
+    position: absolute;
+  }
+  
+  .blobStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    animation: blobAnimation 3s linear infinite;
+  }
+  .contactMeSection {
+    margin-top: 150px;
+    width: 100%;
+    background-color: #e7e7e7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container h2 {
+    font-size: 5em;
+    padding-top: 2rem;
+    color: #e84949;
+  }
+  
+  .container h3 {
+    font-size: 3em;
+    color: #343d68aa;
+  }
+  
+  .contactUsForm {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactUsForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .formFieldContainer{
+    width: 100%;
+  }
+  .formField {
+    width: 100%;
+    height: 42px;
+    padding: 0 2rem;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    background: #ffffff97;
+    font-weight: 500;
+  }
+  
+  .formfield:focus {
+    border: none;
+  }
+  
+  .formFieldContainer textarea {
+    height: auto;
+    padding-top: 1rem;
+  }
+  
+  .formBtn .button {
+    border: 2px solid lightseagreen;
+    transition: 0.5s;
+    border: none;
+    margin: 1rem 0;
+    outline: 2px solid lightpink;
+    outline-offset: 2px;
+  }
+  
+  .formBtn .button:hover {
+    transform: scale(0.9);
+  }
+  
+  .formBtn .button i {
+    padding: 0 1rem;
+  }
+  .formBtn button h3{
+    padding: 10px;
+    font-size: 34px;
+    border: 2px solid lightsalmon;
+    background: #7f8491;
+  }
+  footer {
+    background: #343d68;
+    position: relative;
+    padding: 5rem;
+  }
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+  }
+  
+  .linkContainer {
+    display: flex;
+    gap: 1.2em;
+  }
+  
+  .linkContainer div a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.6s;
+  }
+  
+  .linkContainer div a:hover{
+    color: #e84949;
+  }
+  .role{
+    color: blueviolet;
+  }
