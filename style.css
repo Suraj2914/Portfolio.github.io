@@ -83,7 +83,7 @@ nav ul li a:hover{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin-right: 100px;
+/*   margin-right: 100px; */
   margin-top: 10px;
   height: 400px;
   justify-content: center;
