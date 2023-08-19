@@ -154,7 +154,7 @@ nav ul li a:hover{
     gap: 100px;
   }
 .project-card {
-    width: 80%;
+    width: 100%;
     max-width:80rem;
     height: 500px;
     background-size: cover;
@@ -207,6 +207,7 @@ nav ul li a:hover{
     width: fit-content;
   }
   .skillContainer {
+    width: 100%;
     position: relative;
     display: flex;
     padding: 5rem;
