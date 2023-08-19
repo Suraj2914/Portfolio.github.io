@@ -156,7 +156,7 @@ nav ul li a:hover{
     max-width:80rem;
     height: 500px;
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     gap: 300px;
     box-shadow: 0px 0px 40px #1f1f1f;
