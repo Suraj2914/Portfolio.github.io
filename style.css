@@ -42,7 +42,7 @@ header{
     margin-right: 700px;
 }
 nav ul {
-    display: flex;
+   display: flex;
    margin-right: 14em;
    padding: 0 2em;
    gap: 2rem;
@@ -82,7 +82,7 @@ nav ul li a:hover{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-/*   margin-right: 200px; */
+  /* margin-right: 200px; */
   margin-top: 10px;
   height: 400px;
   justify-content: center;
