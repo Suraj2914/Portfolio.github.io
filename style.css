@@ -75,13 +75,13 @@ nav ul li a:hover{
   position: relative;
   margin-right: 900px;
   /* height: 300px; */
-  width: 1900px;
+  width: 1500px;
 }
 .info-container{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin-right: 250px;
+  margin-right: 200px;
   margin-top: 10px;
   height: 400px;
   justify-content: center;
@@ -102,7 +102,7 @@ nav ul li a:hover{
   .img-container img{
     width: 500px;
     margin-top: 90px;
-    margin-right: 300px;
+    margin-right: auto;
     mix-blend-mode: multiply;
     border: 2px solid lightsteelblue;
     border-radius: 50%;
