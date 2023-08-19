@@ -76,14 +76,14 @@ nav ul li a:hover{
   position: relative;
   margin-right: 900px;
   /* height: 300px; */
-/*   width: 1500px; */
+  /* width: 1500px; */
 }
 .info-container{
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-/*   margin-right: 100px; */
+  /* margin-right: 100px; */
   margin-top: 10px;
   height: 400px;
   justify-content: center;
@@ -102,9 +102,9 @@ nav ul li a:hover{
     font-weight: bold;
 }
   .img-container img{
-    width: 50%;
+    width: 60%;
     margin-top: 90px;
-    margin-right: 800px;
+    margin-right: auto;
     mix-blend-mode: multiply;
     border: 2px solid lightsteelblue;
     border-radius: 50%;
@@ -154,7 +154,7 @@ nav ul li a:hover{
     gap: 100px;
   }
 .project-card {
-    width: 100%;
+    width: 80%;
     max-width:80rem;
     height: 500px;
     background-size: cover;
@@ -207,7 +207,6 @@ nav ul li a:hover{
     width: fit-content;
   }
   .skillContainer {
-    width: 100%;
     position: relative;
     display: flex;
     padding: 5rem;
@@ -277,7 +276,6 @@ nav ul li a:hover{
   }
   
   .container {
-      width: 100%;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -366,7 +364,6 @@ nav ul li a:hover{
   }
   
   .linkContainer {
-      width: 100%;
     display: flex;
     gap: 1.2em;
   }
