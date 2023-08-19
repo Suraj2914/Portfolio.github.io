@@ -153,6 +153,7 @@ nav ul li a:hover{
   }
 .project-card {
     width: 80%;
+    max-width:80rem;
     height: 500px;
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -160,7 +161,8 @@ nav ul li a:hover{
     gap: 300px;
     box-shadow: 0px 0px 40px #1f1f1f;
     margin: 2rem auto;
-    /* z-index: 2; */
+    z-index: 2;
+    cursor:pointer;
   }
   .projectHeading{
     font-size: 50px;
